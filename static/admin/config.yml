@@ -1,7 +1,7 @@
 backend:
   name: github
   branch: master
-  repo: ZediWards/portfolio-blog
+  repo: ZediWards/New-Blog
 
 publish_mode: editorial_workflow
 
