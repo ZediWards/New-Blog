@@ -1,8 +1,8 @@
 require(`dotenv`).config({
   path: `.env`,
-})
+});
 
-const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
+const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
@@ -66,6 +66,7 @@ module.exports = {
         ],
       },
     },
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
     shouldAnalyseBundle && {
@@ -77,4 +78,4 @@ module.exports = {
       },
     },
   ].filter(Boolean),
-}
+};
