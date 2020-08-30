@@ -6,7 +6,22 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE;
 
 module.exports = {
   siteMetadata: {
+    // Used for the title template on pages other than the index site
+    siteTitle: `ZediWards`,
+    // Default title of the page
     siteTitleAlt: `ZediWards`,
+    // Can be used for e.g. JSONLD
+    siteHeadline: `Portfolio & Blog - ZediWards`,
+    // Used for og:image and must be placed inside the `static` folder
+    siteImage: `/Avatar.jpg`,
+    // Twitter Handle
+    author: `@ZediWards`,
+    // Used for SEO
+    siteDescription: `portfolio, blog, web development, science, music, javaScript, HTML, CSS, data, 100 days of code, Code Newbie,`,
+    // Will be used to generate absolute URLs for og:image etc.
+    // siteUrl: `https://minimal-blog.lekoarts.de`,
+    // Will be set on the <html /> tag
+    // siteLanguage: `en`,
   },
   plugins: [
     {
