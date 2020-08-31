@@ -11,11 +11,13 @@ public_folder: /img
 collections:
   - name: "blog"
     label: "Blog"
-    folder: "minimal-blog/posts"
+    folder: "content/posts"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "index"
+    # slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     media_folder: ""
     public_folder: ""
+    path: "{{title}}/index"
     editor:
       preview: true
     format: "frontmatter"
