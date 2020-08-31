@@ -13,7 +13,7 @@ module.exports = {
     // Can be used for e.g. JSONLD
     siteHeadline: `Portfolio & Blog - ZediWards`,
     // Used for og:image and must be placed inside the `static` folder
-    siteImage: `/Avatar.jpg`,
+    siteImage: `/banner1.jpg`,
     // Twitter Handle
     author: `@ZediWards`,
     // Used for SEO
