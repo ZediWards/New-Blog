@@ -62,7 +62,7 @@ module.exports = {
       options: {
         name: `ZediWards Portfolio & Blog`,
         short_name: `Zediwards`,
-        description: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and code highlighting.`,
+        description: ``,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#6B46C1`,
