@@ -5,26 +5,32 @@ backend:
 
 publish_mode: editorial_workflow
 
-media_folder: static/img
-public_folder: /img
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+site_url: https://festive-neumann-bf44ca.netlify.app/
+display_url: https://festive-neumann-bf44ca.netlify.app/
+logo_url: https://festive-neumann-bf44ca.netlify.app/images/uploads/Avatar.jpg
 
 collections:
-  - name: "blog"
-    label: "Blog"
+  - name: "Posts"
+    label: "Posts"
     folder: "content/posts"
     create: true
     slug: "index"
     # slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    media_folder: ""
-    public_folder: ""
     path: "{{title}}/index"
     editor:
       preview: true
-    format: "frontmatter"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "string" }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "string",
+          required: false,
+        }
       - { label: "Slug", name: "slug", widget: "string" }
       - {
           label: "Featured Image",
