@@ -12,16 +12,16 @@ module.exports = {
     siteTitleAlt: `ZediWards`,
     // Can be used for e.g. JSONLD
     siteHeadline: `Portfolio & Blog - ZediWards`,
+    // Will be used to generate absolute URLs for og:image etc.
+    siteUrl: `https://festive-neumann-bf44ca.netlify.app/`,
+    // Used for SEO
+    siteDescription: `portfolio, blog, web development, science, music, javaScript, HTML, CSS, data, 100 days of code, Code Newbie,`,
+    // Will be set on the <html /> tag
+    siteLanguage: `en`,
     // Used for og:image and must be placed inside the `static` folder
     siteImage: `/banner1.jpg`,
     // Twitter Handle
     author: `@ZediWards`,
-    // Used for SEO
-    siteDescription: `portfolio, blog, web development, science, music, javaScript, HTML, CSS, data, 100 days of code, Code Newbie,`,
-    // Will be used to generate absolute URLs for og:image etc.
-    // siteUrl: `https://minimal-blog.lekoarts.de`,
-    // Will be set on the <html /> tag
-    // siteLanguage: `en`,
   },
   plugins: [
     {
